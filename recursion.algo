@@ -1,0 +1,22 @@
+ALGORITHM FUNCTION palindrome(word) : STRING
+VAR
+    word:STRING;
+    result:STRING;
+    i,j:INTEGER;
+    n=word.length
+BEGIN
+   
+        IF (word<=1) THEN
+        return:"please enter a valid word"
+        ELSE
+            for i from 0 to n do
+            for j from 0 to n-1 do
+        IF (word[i]=word[n-1]) THEN
+            test the rest of the word
+        ELSE
+            return:" there is no equality "
+        END_for    
+        END_IF
+        END_IF
+    END_IF
+END
